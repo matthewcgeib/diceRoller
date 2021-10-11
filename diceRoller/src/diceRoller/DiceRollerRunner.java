@@ -11,12 +11,13 @@ public class DiceRollerRunner {
 			//Die d = new Die(6);
 			//System.out.println(d.roll());
 		//}
-		DiceRoller dice = new DiceRoller(20, 6);
+		DiceRoller dice = new DiceRoller(20, 20);
 		dice.roll();
 		
 		System.out.println(Arrays.toString(dice.getNaturalResults()));
 		System.out.println(Arrays.toString(dice.getSortedResultsAscending()));
 		System.out.println(Arrays.toString(dice.getSortedResultsDescending()));
+		System.out.println(dice.getTotal());
 
 	}
 

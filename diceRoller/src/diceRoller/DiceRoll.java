@@ -4,7 +4,7 @@ import java.util.concurrent.*;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class DiceRoller {
+public class DiceRoll {
 	
 	private int numberOfDice;
 	private int sides;
@@ -13,7 +13,7 @@ public class DiceRoller {
 	private Integer [] ascendingResults;
 	private Integer [] descendingResults;
 	
-	public DiceRoller(int numberOfDice, int sides) {
+	public DiceRoll(int numberOfDice, int sides) {
 		super();
 		this.numberOfDice = numberOfDice;
 		this.sides = sides;
